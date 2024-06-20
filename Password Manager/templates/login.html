@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body style="background-image: linear-gradient(to bottom, #87CEEB, #6495ED); height: 100vh; margin: 0; padding: 0;">
+    <img src="{{ url_for('static', filename='logo.png') }}" class="logo">
+    <h1 style="font-size: 3rem; color: #fff; text-align: center; margin-bottom: 30px; padding-top: 20px;">Login</h1>
+    <form action="" method="post" style="background-color: #fff; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 300px; margin: 0 auto; margin-top: 50px;">
+        <label for="username" style="display: block; margin-bottom: 10px; font-size: 1.2rem; color: #333;">Username:</label>
+        <input type="text" id="username" name="username" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px;"><br><br>
+        <label for="password" style="display: block; margin-bottom: 10px; font-size: 1.2rem; color: #333;">Password:</label>
+        <input type="password" id="password" name="password" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px;"><br><br>
+        <input type="submit" value="Login" style="background-color: #4CAF50; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+    </form>
+</body>
+</html>

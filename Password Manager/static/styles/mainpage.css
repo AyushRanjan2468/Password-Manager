@@ -1,0 +1,37 @@
+      h1 {
+        text-align: start;
+        margin-bottom: 30px;
+        color: #87CEEB;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 7px;
+      }
+
+      input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px 18px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: #ffffff;
+        padding: 14px 18px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+     .button-container {
+        display: inline-block;
+        margin: 0 9px;
